@@ -1,0 +1,71 @@
+1.- Comando pwd: sirve para imprimir la ruta actual de la terminal.
+
+2.- Comando whoami: Sirve para imprimir el nombre del usuario actual.
+
+3.- Comando hostname: Sirve para imprimir el nombre del hostname actual. para cambiarlo hay que cambiar el archivo hostname que esta en /etc/hostname y el fichero hosts que esta en /etc/hosts, se cambian con el comando nano. Para que lo cambios surjan, hay que cerrar sesión o reiniciar.
+
+4.- Comando cd: Sirve para moverse entre directorios. Ejemplo: "cd /etc". Para ir un derectorio hacia atras: "cd ". Sin nada.
+
+5.- Comando ls: Sirve para listar los elementos del directorio actual. Tiene muchos argumentos que se pueden usar, entre los que estan:
+	1.- "ls -l": muestra los elementos del directorio de forma organizada.
+	2.- "ls -la": muestra los elementos ocultos, que empiezan por un punto.
+	3.- "ls -lh": Muestra el tamaño de los elementos de forma más organizada.
+	4.- "ls -lR": Muestra los archivos de forma recursiva.
+	5.- "ls -lt": Organiza los archivos por fecha de modificación reciente.
+	6.- "ls -lr": Organiza los archivos por fecha de modificación antigua.
+
+6.- Comando uname: Sirve para mostrar información del sistema y la maquina. Tiene algunos argumentos:
+	1.- "uname -a": Muestra toda la información completa.
+	2.- "uname -s": Muestra la información del kernel.
+	3.- "uname -n": Muestra el nombre del host del internet.
+	4.- "uname -r": Muestra la ultima versión del kernel.
+	5.- "uname -v": Muestra la versión del kernel.
+	6.- "uname -m": Muestra el nombre de la maquina.
+	7.- "uname -p": Muestra el tipo del procesador de la maquina.
+	8.- "uname -i": Muestra la información de la plataforma de hardware.
+	9.- "uname -o":	Muestra el sistema operativo.
+
+7.- Comando man: Sirve para abrir el manual o documentación de primera mano de cualquier comando de terminal o incluso programa que tengas instalado. para usarlo hay que escribir: "man nombrecomandooprograma" y se abrira el manuel respectivo. Luego, para salir, podemos presionar q.
+
+8.- Comando more: Sirve para mostrar el texto dentro de una documento. para usarlo, se escribe "more nombredelarchivo.txt". para avanzar entre lineas, se puede usar la letra z o d. Para elegir el numero de lineas que se va a desplazar, se puede escribir el numero (1, por ejemplo) y luego z o d, y de esta forma avanzara solo de linea a linea. También se puede usar enter para avanzar linea a linea, o espacio, para avanzar pagina a pagina.
+
+	1.- Parametro +u(numero): sirve para que al momento de abrir el documento, este se muestre en el numero de linea que se le haya dado.
+	2.- -u(numero): Sirve para ajustar el maximo de lineas por página.
+
+9.- Comando less: Un comando muy parecido al comando more, pero mucho más completo y con más funcionalidades. Primero, para usarlo, simplemente escribimos "less nombredelosdocumentos.txt".
+Una vez adentro, tenemos los siguientes comandos con teclas.
+	1.- Para avanzar linea a linea usamos: e o j.
+	2.- Para retroceder linea a linea usamos: k o y.
+	3.- para avanzar de página usamos: f.
+	4.- para retrocerder de página usamos: b.
+	5.- para avanzar o retroceder el numero de lineas que queramos, debemos escribir primero el numero de lineas que nos queremos mover y luego usamos e o j, k o y, dependiendo de si 		quieremos retroceder o avanzar.
+	6.- Para avanzar solo la mitad de la página que se esta mostrando, podemos usar d.
+	7.- Para retroceder solo la mitad de la página que se esta mostrando, podemos usar u.
+	8.- Para poder buscar un contenido en el documento, primero se debe escribir slash (/) e inmediatamente escribir el contenido que se quiere encontrar.
+	9.- Para ir al inicia del documento, podemos presionar la tecla g.
+	10.- Para ir a una linea especifica, podemos escribirla, y luego pulsar g.
+	11.- Para ir al final del documento, podemos presionar la tecla G.
+	12.- Para salir del comando less, pulsamos q.
+
+10.- Comando cat: Con el comando cat se podran visualizar documentos que contengan texto desde la terminal. Para usarlo se escribre "cat nombredelcoumento".
+	1.- cat -n nombredocumento: Este parametro sirve para enumerar las lineas de texto que contenga el archivo.
+	2.- cat -s nombredocumento: Este parametro sirve para eliminar los espacios en blanco de más que tenga el documento.
+
+11.- Comando head: Sirve para mostrar las primeras 10 lineas de un documento de texto.
+	1.- head -n(numero): Para mostrar las n primeras lineas del documento.
+
+12.- Comando tail: Muy parecido al comando head, sirve para mostrar las diez ultimas lineas de un documento de texto.
+	1.- tail -n (numero): Sirve para mostrar las n ultimas lineas del documento.
+
+13.- Comando wc: Sirve para mostrar el numero de lineas, cantidad de palabras o caracteres y la cantidad de bytes que tiene un documento de texto. para usarlo, se escribe "wc documento.txt"
+	1.- wc -c documento.txt: Este parametro retorna la cantidad de bytes unicamente.
+	2.- wc -w documento.txt: Este parametro retorna la cantidad de caracteres.
+	3.- wc -m documento.txt: Este parametro retorna la cantidad de caracteres.
+	4.- wc -l docuemnto.txt: Este parametro retorna la cantidad de lineas.
+	5.-
+
+14.- Comando uniq: Sirve para eliminar filas repetidas de un documento de texto, pero tienen que estar ordenados. Solamente lo hace de forma consecutiva.
+	1.- uniq -c : devuelve el numero de veces que encontro una fila repetida de cada una.
+	2.- uniq -d : devuelve solamente las filas que estan repetidas.
+	
+15.- pipes o tuberias: Sirve para usar la salida de un comando como la entrada de otro. Se define por medio del simbolo |.	
