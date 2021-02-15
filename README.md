@@ -16,9 +16,9 @@
   <li>Ejemplos de código</li>
 </ol>
 
-<p>
-  Algunas de las materias que encontraras son las siguientes:
-</p>
+<h3>
+  Algunas de las materias que encontraras son las siguientes 👉:
+</h3>
 
 <ol>
   <li>Programación ✔</li>
