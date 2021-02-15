@@ -17,7 +17,7 @@
 </ol>
 
 <h3>
-  Algunas de las materias que encontraras son las siguientes 👉:
+  Algunas de las materias que encontraras son las siguientes: 👉
 </h3>
 
 <ol>
