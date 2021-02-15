@@ -11,9 +11,9 @@
 </p>
 
 <ol>
-  <li>Guias de estudios y conceptos básicos</li>
-  <li>Trabajos y proyectos completos (y algunos no 😁)</li>
-  <li>Ejemplos de código</li>
+  <li>Guias de estudios y conceptos básicos ✔</li>
+  <li>Trabajos y proyectos completos (y algunos no 😁) ✔</li>
+  <li>Ejemplos de código ✔</li>
 </ol>
 
 <h3>
