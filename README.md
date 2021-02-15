@@ -2,7 +2,7 @@
 
 <h1>📚 Primiparos 📚</h1>
 
-<h3>Bienvenido al repositorio oficial 📦 de la comunidad de <b>Primiparos</b>😎👌</h3>
+<h3>Bienvenido al repositorio oficial 📦 de la comunidad de <b>Primiparos</b> 😎👌</h3>
 
 <h3>¿Qué encontraras aquí? 🤔</h3>
 
